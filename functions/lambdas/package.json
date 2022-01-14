@@ -1,0 +1,17 @@
+{
+  "name": "aws-step-functions-rpa",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@types/aws-lambda": "*",
+    "@types/node": "*"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.46.0",
+    "@aws-sdk/client-sfn": "^3.46.0",
+    "@aws-sdk/client-textract": "^3.46.0",
+    "add": "^2.0.6",
+    "yarn": "^1.22.17"
+  }
+}
